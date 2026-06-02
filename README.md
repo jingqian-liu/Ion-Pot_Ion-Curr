@@ -8,7 +8,7 @@ This repository contains code, models, and resources for **Ion-Pot** and **Ion-C
 * **Ion-Curr**: ionic current prediction for nanopore-based biomolecular systems.
 
 <p align="center">
-  <img src="IonPot_IonCurr.png" alt="Ion-Pot and Ion-Curr overview" width="1000" height="450">
+  <img src="IonPot_IonCurr.png" alt="Ion-Pot and Ion-Curr overview" width="1000" height="400">
 </p>
 
 ## Repository Structure
