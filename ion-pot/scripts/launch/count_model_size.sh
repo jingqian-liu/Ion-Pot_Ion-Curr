@@ -1,0 +1,1 @@
+python -m scripts.3d.count_model_size distributed_atomic_all_atoms_grid35_small_mol_wo_lset_fully_coverage_medium_dataloader

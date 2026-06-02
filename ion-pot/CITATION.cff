@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: >-
+  If you use Ion-Pot in your research, please cite both the paper and
+  this software release.
+title: "Ion-Pot: Voxel-based CNN surrogates for ion-dependent biomolecular electrostatic potential prediction"
+abstract: >-
+  Ion-Pot is a voxel-based learning benchmark and set of CNN surrogates
+  for predicting the electrostatic potential field around biomolecules
+  under varying ionic conditions. Given a voxelized representation of a
+  protein and a scalar salt concentration, the models predict the full
+  3D electrostatic potential that would otherwise be computed by a
+  nonlinear Poisson–Boltzmann solver (APBS). This repository contains
+  the dataset construction pipeline (AlphaFoldDB source, 3,875 proteins
+  × 9 ionic conditions), voxel data loaders, U-Net / ResNet / FNO
+  backbones with additive or FiLM ion-concentration conditioning,
+  distributed training, and APBS benchmarking utilities.
+authors:
+  - family-names: "Liu"
+    given-names: "Jingqian"
+    affiliation: "Siebel School of Computing and Data Science, University of Illinois at Urbana–Champaign"
+  - family-names: "Gu"
+    given-names: "Pinhao"
+    email: "pinhao.peter@gmail.com"
+    affiliation: "Department of Physics and Beckman Institute, University of Illinois at Urbana–Champaign"
+  - family-names: "Aksimentiev"
+    given-names: "Aleksei"
+    affiliation: "Department of Chemistry and Beckman Institute, University of Illinois at Urbana–Champaign"
+keywords:
+  - "Poisson–Boltzmann"
+  - "biomolecular electrostatics"
+  - "ion concentration"
+  - "surrogate modeling"
+  - "3D CNN"
+  - "U-Net"
+  - "FNO"
+  - "APBS"
+license: MIT
+version: "0.1.0"
+date-released: "2026-04-21"
+repository-code: "https://github.com/pinhaogu/ion-pot"
+url: "https://github.com/pinhaogu/ion-pot"
+preferred-citation:
+  type: conference-paper
+  title: "Ion-Pot and Ion-Curr: Datasets and Benchmarks for Electrostatic Field and Observable Prediction in Complex Geometries"
+  authors:
+    - family-names: "Liu"
+      given-names: "Jingqian"
+    - family-names: "Gu"
+      given-names: "Pinhao"
+    - family-names: "Aksimentiev"
+      given-names: "Aleksei"
+  collection-title: "Proceedings of the ICML 2026 Workshop on AI for Physics (under submission)"
+  year: 2026
+  notes: "Jingqian Liu and Pinhao Gu contributed equally. Paper under submission to the ICML 2026 AI for Physics workshop."

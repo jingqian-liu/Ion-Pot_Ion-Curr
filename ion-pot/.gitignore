@@ -1,0 +1,183 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------------------------------------------------------------------------
+# IDEs / editors
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Secrets / local config
+# ---------------------------------------------------------------------------
+# Users must copy env.example.toml -> env.toml and fill in their own values.
+env.toml
+*.key
+*.pem
+.secrets/
+wandb/
+
+# ---------------------------------------------------------------------------
+# Datasets / large data artifacts
+# ---------------------------------------------------------------------------
+datasets/
+data/
+*.npz
+*.npy
+*.pkl
+*.pkl.gz
+*.h5
+*.hdf5
+*.zarr/
+*.pt
+*.pth
+*.bin
+*.dx
+*.pqr
+*.pdb
+*.cif
+*.mmcif
+
+# Keep small example assets inside notebooks/ if really needed — but by
+# default exclude the heavy scratch files.
+notebooks/*.pkl.gz
+notebooks/*.dx
+notebooks/*.html
+
+# ---------------------------------------------------------------------------
+# Model checkpoints (checked in per-config; ignore large/raw weights)
+# ---------------------------------------------------------------------------
+checkpoints/**/*.safetensors
+checkpoints/**/*.ckpt
+checkpoints/**/*.pt
+checkpoints/**/*.pth
+checkpoints/**/*.bin
+
+# ---------------------------------------------------------------------------
+# Experiment / training outputs
+# ---------------------------------------------------------------------------
+outputs/
+outputs_*/
+runs/
+logs/
+lightning_logs/
+tb_logs/
+tensorboard/
+mlruns/
+
+# ---------------------------------------------------------------------------
+# Figures / rendered artifacts (generated)
+# ---------------------------------------------------------------------------
+figures/
+
+# ---------------------------------------------------------------------------
+# APBS / VMD / MC-shell / molecular tooling
+# ---------------------------------------------------------------------------
+io.mc
+*.mc
+*.log.apbs
+apbs.out
+
+# ---------------------------------------------------------------------------
+# dataset/ pipeline intermediates (AlphaFoldDB -> .npz)
+# ---------------------------------------------------------------------------
+# These are produced by dataset/step1..step6 + dx_to_npz.py; they are large
+# and fully reproducible from the scripts, so we do not commit them.
+dataset/01_structures/
+dataset/01_structures_*/
+dataset/02_foldseek/
+dataset/03_splits/
+dataset/04_pqr/
+dataset/05_apbs_in/
+dataset/05_apbs_in_*/
+dataset/06_apbs_out/
+dataset/06_apbs_out_*/
+dataset/07_logs/
+dataset/08_manifests/
+dataset/09_npz/
+dataset/**/*.dx
+dataset/**/*.pqr
+dataset/**/*.pdb
+dataset/**/*.in
+dataset/**/*.cif
+
+# ---------------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+.nfs*
