@@ -7,21 +7,11 @@ This repository contains code, models, and resources for **Ion-Pot** and **Ion-C
 * **Ion-Pot**: electrostatic potential field prediction around biomolecules under varying ionic conditions.
 * **Ion-Curr**: ionic current prediction for nanopore-based biomolecular systems.
 
-The main overview figure is provided as:
-
-```text
-IonPot_IonCurr.png
-```
+<p align="center">
+  <img src="IonPot_IonCurr.png" alt="Ion-Pot and Ion-Curr overview" width="1000" height="450">
+</p>
 
 ## Repository Structure
-
-```text
-.
-├── ion-pot/      # Ion-Pot dataset/model code
-├── ion-curr/     # Ion-Curr dataset/model code
-├── IonPot_IonCurr.png
-└── README.md
-```
 
 Each subfolder contains its own README with task-specific instructions, including data preparation, model training, and evaluation details.
 
