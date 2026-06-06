@@ -31,7 +31,7 @@ python train.py
 
 ## Dataset
 
-The Ion-Curr dataset is available at: [link TBD]
+The Ion-Curr dataset is available at: https://uofi.box.com/s/60vw1i7hd7x41djg71eul0vnvvkv3m7t 
 
 ## Citation
 
